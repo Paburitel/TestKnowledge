@@ -1,0 +1,24 @@
+
+li {
+list-style-type: none;
+}
+
+#timer-main{
+	font-size: 2em;
+
+}
+#timer-local{
+	font-size: 1.5em;
+}
+#answers>ul>li>input {
+	float: left;
+}
+
+
+
+
+
+
+
+
+

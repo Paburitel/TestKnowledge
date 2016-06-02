@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+ <html>
+ <head>
+ <title>Test JS</title>
+ <style>
+ 
+  </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <script src ="https://code.jquery.com/jquery-1.12.3.js"></script>
+ 
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <script type='text/javascript' src="data.js"></script>
+ <script type='text/javascript' src="script.js"></script>
+
+ <link   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+
+     $(document).ready(function(){
+      var test = new TestKnowledge( data , '#TestBlock');
+    });
+  </script>
+</head>
+ <body>
+  <div id="TestBlock"></div>
+ <!--  <div id="header" class="row page-header">
+        <h3 class="text-center">Входное тестирование по HTML и CSS</h3>
+  </div> -->
+<!--   <div id="startblock" class="row">
+    <div class="col-xs-1 col-lg-2" ></div>
+      <div class="col-xs-10 col-lg-8 panel">
+        <div  class="panel-heading bg-info text-justify">
+          Вам предлагается пройти тест на знание HTML и CSS. Слева от панели с номерами вопросов находится главный таймер, указывающий время, оставшееся на прохождение теста. Под главным таймером находится таймер с указанием времени оставшегося для ответа на текущий вопрос. Для удобства навигации кнопки с посещенными, но неотвеченными вопросами будут подсвечены желтым,  кнопки с посещенными и отвеченными вопросами будут подсвечены зеленым, кнопки с неотвеченными вопросами и истекшим временем на ответ будут подсвечены красным.<br>
+          По истечении времени на прохождение теста Ваши ответы будут отправлены автоматически!
+
+        </div>
+        <div id="start" class="btn btn-block btn-primary panel-body" data-toggle="collapse" data-target="#main">Начать тест!</div>
+      </div>
+    <div class="col-xs-1 col-lg-2" ></div>
+  </div> -->
+
+
+
+<!--   <div class="row">
+    <div class="col-xs-1 col-lg-2" ></div>
+    <div id="main" class="col-xs-10 col-lg-8 collapse">      
+
+      <div id="header_1" class="row">
+
+        <div id="timer-main" class="col-xs-2 center-block">
+          <p class="text-center"></p>
+          
+        </div>
+
+        <div id="quest-list" class="col-xs-8  panel panel-default">
+         
+        </div>
+
+        <div class="col-xs-2">
+          
+          <button id="send-button" type="button" class="btn btn-default center-block">Отправить!</button>
+        
+        </div>
+
+      </div>
+
+      <div id="main-block" class="row">
+
+         <div id="timer-local" class="col-xs-2">
+          <p class="text-center"></p>
+        </div>
+
+        <div id="quest-answer-block" class="col-xs-8">
+
+          <div id="div_border" class="row panel panel-default">
+
+              <div id="quest-text" class="panel-heading"></div>
+              <div id="answers" class="panel-body"></div>
+
+          </div>
+
+          <div id="buttons" class="row">
+
+             <button class="btn btn-default" style="float:left"><span class="glyphicon glyphicon-chevron-left"></span>Предыдущий вопрос</button>
+
+              <button class="btn btn-default" style="float:right">Следующий вопрос<span class="glyphicon glyphicon-chevron-right"></span></button>
+
+          </div>
+          
+        </div>
+
+        <div  class="col-xs-2">
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-1 col-lg-2">   
+    </div>
+  </div> -->
+
+ </body>
+ 
+ </html>
